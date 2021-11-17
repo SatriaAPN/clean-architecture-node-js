@@ -1,0 +1,28 @@
+{
+  "name": "clean-architecture-node-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js",
+    "test": "jest --setupFiles dotenv/config",
+    "test:watch": "jest --watchAll --coverage --setupFiles dotenv/config",
+    "migrate": "node-pg-migrate",
+    "migrate:test": "node-pg-migrate -f config/database/test.json"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/jwt": "^2.1.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "nanoid": "^3.1.30",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "eslint": "^8.2.0",
+    "jest": "^27.3.1",
+    "node-pg-migrate": "^6.0.0"
+  }
+}
