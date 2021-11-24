@@ -1901,6 +1901,11 @@ inherits@2, inherits@^2.0.3:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
+instances-container@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/instances-container/-/instances-container-2.0.4.tgz#6f0ab7b4c8ac4c0840ca3a7fa786b490a6d5dfce"
+  integrity sha512-2LnbolE7GJpIWKHgy+kopoEtZM5+hvR0Uretq9uAAC3l3bjduIEfD2/V6xuUGq7vCMxL/DxasRhorHKaj7ErfQ==
+
 is-core-module@^2.2.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.8.0.tgz#0321336c3d0925e497fd97f5d95cb114a5ccd548"
