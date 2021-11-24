@@ -8,11 +8,11 @@ const bcrypt = require('bcrypt');
 const pool = require('./database/postgres/pool');
  
 // service (repository, helper, manager, etc)
-const UserRepositoryPostgres = require('./repository/UserRepositoryPostgres');
+const UserRepositoryPostgres = require('./repositories/UserRepositoryPostgres');
 const BcryptPasswordHash = require('./security/BcryptPasswordHash');
  
 // use case
-const AddUserUseCase = require('../Applications/use_case/AddUserUseCase');
+const AddUserUseCase = require('../Applications/use_cases/AddUserUseCase');
 const UserRepository = require('../Domains/users/UserRepository');
 const PasswordHash = require('../Applications/security/PasswordHash');
  
