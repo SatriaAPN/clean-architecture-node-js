@@ -9,7 +9,8 @@
     "test": "jest --setupFiles dotenv/config",
     "test:watch": "jest --watchAll --coverage --setupFiles dotenv/config",
     "migrate": "node-pg-migrate",
-    "migrate:test": "node-pg-migrate -f config/database/test.json"
+    "migrate:test": "node-pg-migrate -f config/database/test.json",
+    "migrate:down:test": "node-pg-migrate-down -f config/database/test.json"
   },
   "dependencies": {
     "@hapi/hapi": "^20.2.1",
